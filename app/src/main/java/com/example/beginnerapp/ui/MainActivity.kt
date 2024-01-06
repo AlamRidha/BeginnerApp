@@ -1,5 +1,6 @@
 package com.example.beginnerapp.ui
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -60,7 +61,11 @@ class MainActivity : AppCompatActivity() {
         //  click item
         listPlayerAdapter.setOnItemClickCallBack(object : ListPlayerAdapter.OnItemClickCallback {
             override fun onItemClicked(data: Player) {
+                val intentDetail = Intent(this@MainActivity, DetailActivity::class.java)
+                intentDetail.putExtra(EXTRA_PLAYER, data)
+                //  cek data
                 Log.d(TAG, data.name)
+                startActivity(intentDetail)
             }
         })
     }
@@ -83,6 +88,7 @@ class MainActivity : AppCompatActivity() {
 
     companion object {
         const val TAG = "MainActivity"
+        const val EXTRA_PLAYER = "extra_player"
     }
 
 }

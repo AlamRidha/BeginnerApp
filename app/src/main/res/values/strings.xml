@@ -4,6 +4,7 @@
     <string name="list">List</string>
     <string name="grid">Grid</string>
     <string name="profile">Profile</string>
+    <string name="photo_detail">photo_detail</string>
 
     <string-array name="data_name">
         <item>Stephen Curry</item>
