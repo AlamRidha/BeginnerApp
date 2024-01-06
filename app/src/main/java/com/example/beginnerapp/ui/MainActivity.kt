@@ -12,6 +12,7 @@ import com.example.beginnerapp.R
 import com.example.beginnerapp.data.Player
 import com.example.beginnerapp.databinding.ActivityMainBinding
 
+// Finish
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
