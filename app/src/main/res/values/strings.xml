@@ -1,3 +1,44 @@
 <resources>
-    <string name="app_name">Beginner App</string>
+    <string name="app_name">Nba App</string>
+    <string name="photo_player">photo_player</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="profile">Profile</string>
+
+    <string-array name="data_name">
+        <item>Stephen Curry</item>
+        <item>Dirk Nowitzki</item>
+        <item>Kevin Durant</item>
+        <item>Giannis Antetokounmpo</item>
+        <item>Draymond Green</item>
+        <item>Michael Jordan</item>
+        <item>Lebron James</item>
+        <item>Trevor Ariza</item>
+        <item>Rusell Westbrook</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Stephen Curry: The two-time NBA MVP and champion with the Golden State Warriors is widely considered the greatest shooter in NBA history. His revolutionary long-range shooting has changed the way the game is played.</item>
+        <item>Dirk Nowitzki: The one-time NBA MVP and champion with the Dallas Mavericks is renowned for his unorthodox yet effective one-legged fadeaway shot. He\'s also a 14-time All-Star and one of the greatest international players of all time.</item>
+        <item>Kevin Durant: The 2014 NBA MVP and two-time champion with the Golden State Warriors is a scoring machine with a smooth offensive repertoire. He\'s also a seven-time All-Star and one of the deadliest scorers in NBA history</item>
+        <item>Giannis Antetokounmpo: The "Greek Freak" is a two-time NBA MVP and champion with the Milwaukee Bucks. He\'s a physical marvel with incredible athleticism and a versatile skillset, making him one of the most dominant players in the league.</item>
+        <item>Draymond Green: The defensive anchor and emotional leader of the Golden State Warriors, Green is a four-time NBA champion and a three-time All-Star. He\'s known for his intelligence, playmaking, and trash-talking.</item>
+        <item>Michael Jordan: Widely considered the greatest basketball player of all time, Jordan won six NBA championships with the Chicago Bulls and five MVP awards. He\'s a cultural icon and his influence on the game is unmatched.</item>
+        <item>LeBron James: Often referred to as "King James," LeBron is a four-time NBA champion and four-time MVP with three different teams. He\'s a physical force with an all-around skillset and is considered one of the greatest passers and scorers of all time.</item>
+        <item>Trevor Ariza: A well-traveled veteran, Ariza is known for his defensive versatility and three-point shooting. He\'s won two NBA championships with the Los Angeles Lakers and Miami Heat.</item>
+        <item>Russell Westbrook: The 2017 NBA MVP, Westbrook is a triple-double machine known for his relentless energy and explosive athleticism. He\'s a nine-time All-Star and has led the league in scoring three times.</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>https://cdn.nba.com/headshots/nba/latest/1040x760/201939.png</item>
+        <item>https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/609.png</item>
+        <item>https://cdn.nba.com/headshots/nba/latest/1040x760/201142.png</item>
+        <item>https://cdn.nba.com/headshots/nba/latest/1040x760/203507.png</item>
+        <item>https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6589.png&amp;w=350&amp;h=254</item>
+        <item>https://cdn.nba.com/headshots/nba/latest/1040x760/893.png</item>
+        <item>https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png</item>
+        <item>https://cdn.nba.com/headshots/nba/latest/1040x760/2772.png</item>
+        <item>https://cdn.nba.com/headshots/nba/latest/1040x760/201566.png</item>
+    </string-array>
+
 </resources>
