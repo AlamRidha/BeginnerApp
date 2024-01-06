@@ -37,7 +37,8 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.action_profile -> {
-                Log.d(TAG, "Profile Menu")
+                val intentAbout = Intent(this@MainActivity, ProfileActivity::class.java)
+                startActivity(intentAbout)
             }
 
             R.id.action_list -> {

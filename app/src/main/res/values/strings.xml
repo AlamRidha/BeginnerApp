@@ -5,6 +5,9 @@
     <string name="grid">Grid</string>
     <string name="profile">Profile</string>
     <string name="photo_detail">photo_detail</string>
+    <string name="photo_profile">photo profile</string>
+    <string name="profile_name">Muhammad Allam Ridha</string>
+    <string name="profile_description">Thank You for Clone My Project 😍</string>
 
     <string-array name="data_name">
         <item>Stephen Curry</item>

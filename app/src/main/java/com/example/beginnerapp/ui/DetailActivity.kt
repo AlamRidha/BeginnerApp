@@ -34,8 +34,6 @@ class DetailActivity : AppCompatActivity() {
                 Glide.with(this@DetailActivity).load(player.photo).into(ivDetailPhoto)
             }
         }
-
-
     }
 
     companion object {
